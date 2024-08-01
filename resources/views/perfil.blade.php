@@ -29,7 +29,7 @@
                 <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
                 <li class="nav-item"><a class="nav-link" href="#projects">Projetos</a></li>
                 <li class="nav-item"><a class="nav-link" href="#signup">Contato</a></li>
-                <li class="nav-item"><a class="nav-link" href="login" ><i class="far fa-user"></i> Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" >User: {{ Cookie::get('user_name') }}</a></li>
             </ul>
         </div>
     </div>
